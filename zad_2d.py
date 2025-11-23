@@ -1,7 +1,5 @@
 def lista_codwa(x):
-    lista=[]
-    for i in range(x):
-        lista.append(i)
-    lista_2 = lista[::2]
-    print(lista_2)
-lista_codwa(10)
+    for i in x[::2]:
+        print(i)
+lista = list(range(1,11))
+lista_codwa(lista)
