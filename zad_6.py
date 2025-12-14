@@ -1,4 +1,4 @@
-def newlist(a:list, b:list) -> list:
+def newlist(a: list, b: list) -> list:
     combined_list = a+b
     unique_list = set(combined_list)
     list_c = []
