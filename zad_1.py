@@ -1,12 +1,4 @@
-class Student:
-    def __init__(self, name, marks):
-        self.name = name
-        self.marks = marks
-
-    def is_passed(self):
-        average_marks = sum(self.marks) / len(self.marks)
-        return average_marks > 50
-
+from klasy.Student_1 import Student
 
 student1 = Student("Agnieszka Nowak", [80, 70, 90])
 student2 = Student("Adam Roman", [30, 20, 50])
